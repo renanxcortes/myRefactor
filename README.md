@@ -25,7 +25,7 @@ help(total_price)
 This package is also unit tested. After installing and loading it, you can run the tests by running:
 
 ``` r
-test_check("myRefactor")
+testthat::test_check("myRefactor")
 ```
 
 # Acknowledgment
