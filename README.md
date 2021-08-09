@@ -28,3 +28,7 @@ This package is also unit tested. You can run the tests by running:
 library(myRefactor)
 test_check("myRefactor")
 ```
+
+# Acknowledgment
+
+The structure of this package was developed using [usethis](https://usethis.r-lib.org/).
