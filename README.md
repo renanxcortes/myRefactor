@@ -22,10 +22,9 @@ help(total_price)
 
 ## Unit Tests
 
-This package is also unit tested. You can run the tests by running:
+This package is also unit tested. After installing and loading it, you can run the tests by running:
 
 ``` r
-library(myRefactor)
 test_check("myRefactor")
 ```
 
