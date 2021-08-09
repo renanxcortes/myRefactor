@@ -1,11 +1,11 @@
 
 # myRefactor
 
-The goal of myRefactor is to present how to refactor some Badly Written Code.
+The goal of `myRefactor` is to present how to refactor some Badly Written Code.
 
 ## Installation
 
-You can install the development version of myRefactor with:
+You can install the development version of `myRefactor` with:
 
 ``` r
 devtools::install_github("renanxcortes/myRefactor@main")
