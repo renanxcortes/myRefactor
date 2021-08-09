@@ -1,3 +1,4 @@
+library(testthat)
 # You can run these test simply running testthat::test_local() in the root directory.
 
 # Original Data
