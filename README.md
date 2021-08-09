@@ -8,7 +8,7 @@ The goal of myRefactor is to present how to refactor some Badly Written Code.
 You can install the development version of myRefactor with:
 
 ``` r
-devtools::install_github("renanxcortes/myRefactor")
+devtools::install_github("renanxcortes/myRefactor@main")
 ```
 
 ## Example
@@ -22,4 +22,9 @@ help(total_price)
 
 ## Unit Tests
 
-The package is also unit tested.
+This package is also unit tested. You can run the tests by running:
+
+``` r
+library(myRefactor)
+test_check("myRefactor")
+```
