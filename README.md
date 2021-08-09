@@ -1,7 +1,7 @@
 
 # myRefactor
 
-The goal of `myRefactor` is to present how to refactor some Badly Written Code.
+The goal of `myRefactor` is to present how to refactor some badly-written code.
 
 ## Installation
 
