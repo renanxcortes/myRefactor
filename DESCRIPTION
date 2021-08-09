@@ -8,8 +8,7 @@ Authors@R:
            email = "renanxcortes@gmail.com",
            comment = c(WEBSITE = "renanxcortes.github.io"))
 Description: Simple package containing a function named 'total_price'
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
