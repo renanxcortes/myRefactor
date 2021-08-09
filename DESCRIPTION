@@ -1,5 +1,5 @@
 Package: myRefactor
-Title: This is a simple package I developed for refactoring some Badly Written Code
+Title: This is a simple package I developed for refactoring some badly-written code
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Renan",
