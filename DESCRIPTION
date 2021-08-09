@@ -1,0 +1,18 @@
+Package: myRefactor
+Title: This is a simple package I developed for refactoring some Badly Written Code
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Renan",
+           family = "Cortes",
+           role = c("aut", "cre"),
+           email = "renanxcortes@gmail.com",
+           comment = c(WEBSITE = "renanxcortes.github.io"))
+Description: Simple package containing a function named 'total_price'
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
