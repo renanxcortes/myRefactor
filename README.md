@@ -8,7 +8,7 @@ The goal of `myRefactor` is to present how to refactor some badly-written code.
 You can install the development version of `myRefactor` with:
 
 ``` r
-devtools::install_github("renanxcortes/myRefactor@main")
+devtools::install_github("renanxcortes/myRefactor@main", INSTALL_opts = "--install-tests")
 ```
 
 ## Example
