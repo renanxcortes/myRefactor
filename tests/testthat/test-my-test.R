@@ -18,6 +18,15 @@ order_with_na <- tibble::tribble(
   "headphones", 173, 198,
   "printer", 110, 125)
 
+# Original Data with negative values
+order_with_negative <- tibble::tribble(
+  ~product, ~price_EUR, ~price_USD,
+  "smartwatch", 217, 249,
+  "laptop", 517, 591,
+  "monitor", 279, 319,
+  "headphones", 173, 198,
+  "printer", -110, -125)
+
 # Original Data with some column Badly Written columns
 order_with_misnamed_column <- tibble::tribble(
   ~product, ~price_EUR2, ~price_USD2,
@@ -48,6 +57,11 @@ test_that("Test Values - Values OK", {
 test_that("Test Values - Presence of NA's", {
   expect_equal(total_price(.data = order_with_na, .currency = 'USD'), 924.75)
   expect_equal(total_price(.data = order_with_na, .currency = 'EUR'), 863.2)
+})
+
+test_that("Test Values - Presence of negative values", {
+  expect_warning(total_price(.data = order_with_negative, .currency = 'USD'))
+  expect_warning(total_price(.data = order_with_negative, .currency = 'EUR'))
 })
 
 test_that("Test - Misnamed Columns", {
